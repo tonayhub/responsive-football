@@ -199,10 +199,8 @@ iframe{
     width: 483.87px;
     height: 110px;
 }
-.logo:hover img{
-    transform: scale(.8);
-    transition: transform 1s ease-out;
-}
+
+
 .icon i{
     width: 32px;
     height: 32px;
@@ -210,7 +208,7 @@ iframe{
     font-size: 22px;
     display:inline;
     background: rgb(214, 209, 209);
-    margin: 0px 7px;
+    margin: 0px 19px;
     padding: 10px;
     border-radius: 25px;
 }
@@ -364,17 +362,24 @@ footer p{
         transform: scale(1.2);
         transition: transform 1s ease-out;
     }
+    .photo-image{
+        margin-left: 100px;
+    }
     .photo-image img{
         width: 100%;
+    }
+    .gallary h1{
+        text-align: center;
+        margin-bottom: 50px;
     }
 
     /* footer */
 
     .logo img{
-        width: 483.87px;
-        height: 110px;
         
+        width: 100%;   
     }
+    
         
     
 }
